@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { Menu } from './pages/Menu.tsx'
 import { Cart } from './pages/Cart.tsx'
 import { ErrorPage } from './pages/ErrorPage.tsx'
-import { Layout } from './layout/Menu/Menu.tsx'
+import { Layout } from './layout/Menu/Layout.tsx'
 
 const router = createBrowserRouter([
   {

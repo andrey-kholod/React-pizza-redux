@@ -1,0 +1,47 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    padding: 30px;
+    border-right: 1px solid var(--separator-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.exit {
+    margin-top: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: dashed;
+    color: var(--text-color);
+}
+
+.user {
+    margin-bottom: 21px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.email {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: #9ea1b1;
+}
