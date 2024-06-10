@@ -1,5 +1,7 @@
+import Headlining from "../components/Headlining/Headlining";
+
 export function Menu() {
     return <>
-    Menu
+    <Headlining >Меню</Headlining>
     </>
 }

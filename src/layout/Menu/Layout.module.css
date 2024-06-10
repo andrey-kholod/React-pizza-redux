@@ -25,7 +25,12 @@
     align-items: center;
     gap: 14px;
     text-decoration: dashed;
-    color: var(--text-color);
+    color: var(--text-primary);
+    transition: color 0.25s;
+}
+
+.link:hover {
+    color: var(--primary-color);
 }
 
 .user {
@@ -44,4 +49,8 @@
     font-weight: 400;
     line-height: normal;
     color: #9ea1b1;
+}
+
+.active {
+    color: var(--primary-color);
 }
