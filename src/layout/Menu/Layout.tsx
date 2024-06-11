@@ -1,4 +1,4 @@
-import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 import styles from './Layout.module.css'
 import Button from "../../components/Button/Button";
 import { useEffect } from "react";
@@ -32,7 +32,7 @@ export function Layout() {
                 Выход
             </Button>
         </div>
-        <div>
+        <div className={styles['content']}>
             <Outlet />
         </div>
     </div>
